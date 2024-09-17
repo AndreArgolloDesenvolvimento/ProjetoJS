@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 10 - Projeto To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Tarefas</h1>
+        <input type="text" id="taskInput" placeholder="Digite uma tarefa..."><br><br>
+        <input type="date" id="taskDate">
+        <input type="time" id="taskTime"><br><br>
+        <button onclick="addTask()">Adicionar Tarefa</button>
+        <table id="tasksTable">
+            <thead>
+                <tr>
+                    <th>Tarefa</th>
+                    <th>Data</th>
+                    <th>Hora</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- As tarefas serão inseridas aqui -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
